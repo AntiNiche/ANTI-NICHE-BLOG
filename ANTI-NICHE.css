@@ -58,13 +58,12 @@ ul li {
 /* Reset default margin and padding for the header */
 header {
     margin: auto;
-    padding: 150px;
+    padding: 180px;
     background-color: #321A18; /* Change to your desired background color */
     color: #fffff0; /* Change to your desired text color */
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    border: 18px;
-    max-height: 200px;
+    max-height: auto;
     padding: 15px 0; /* Adjust padding as needed */
 }
 #Intro {
@@ -100,7 +99,7 @@ body {
 footer {color: #321A18 }
 
 h2{
-  font-size: 0.7px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -125,16 +124,6 @@ img {
   max-height: 550px;
 }
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
-
-h3 {text-align: right;}
-p {text-align: right;}
 
 .post {
   background-color: #fffff0;
@@ -156,3 +145,4 @@ p {text-align: right;}
 
 }
 .post-images {align-items: center;}
+
