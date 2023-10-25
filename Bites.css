@@ -1,0 +1,140 @@
+/* Initially hide the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: none; /* Remove the button border */
+    background-color: #AAD9EE; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    width: 150px;
+    z-index: 1;
+    font-size: 16px; /* Define font size */
+    color: #000000; /* Set text color */
+    cursor: pointer;
+}
+
+/* Style the button to indicate it's clickable */
+.dropdown button {
+  border: none; /* Remove the button border */
+    background-color: transparent; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    font-size: 16px; /* Define font size */
+    text-align: left;
+    color: #ffffff; /* Set text color */
+    cursor: pointer;
+}
+
+
+.dropdown-content a {
+  color: #fffff0; /* Use the desired color code or color name */
+    text-decoration: none; /* Remove underlines (if you want) */
+}
+
+button {
+  border: none;/* Remove the button border */
+    background-color: transparent; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    font-size: 16px; /* Define font size */
+    color: #ffffff; /* Set text color */
+    cursor: pointer;}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the navigation menu */
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; 
+    position: relative;/* Adjust spacing as needed */
+}
+/* Reset default margin and padding for the header */
+header {
+    margin: auto;
+    padding: 50px;
+    background-color: #AAD9EE; /* Change to your desired background color */
+    color: #ffffff; /* Change to your desired text color */
+    text-align: center;
+    border: 18px;
+    max-height: 120px;
+    padding: 15px 0; /* Adjust padding as needed */
+}
+#lifestyle-Intro {
+  font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 10px }
+
+h1 {text-align: center;
+margin-top: 10px;
+z-index: 1;}
+
+
+
+/* Style the navigation menu */
+ul {
+    list-style: none; 
+    padding: 0;/* Remove default list bullets */
+
+}
+
+.dropdown {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.dropdown-option {
+  color: #000000; /* Text color for links */
+  text-decoration: none; /* Remove underlines from links */
+}
+body {
+  background-color: #5D737E;}
+
+footer {color: #321A18 }
+
+h2{
+  font-size: 30px;
+  color: #ffffff;
+}
+
+p {color: #321A18;}
+
+.label {font-size: 38px;
+color: #321A18 }
+
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 600px;
+  margin: auto;
+}
+
+img {
+  max-width: 500px;
+  max-height: 550px;
+}
+
+figcaption {
+  background-color: transparent;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+h3 {text-align: right;}
+p {text-align: right;}
+
+.post-left {background-color: transparent;
+display: flex;
+  flex-direction: row;
+}

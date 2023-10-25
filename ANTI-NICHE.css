@@ -1,0 +1,158 @@
+/* Initially hide the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: none; /* Remove the button border */
+    background-color: #321A18; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    width: 150px;
+    z-index: 1;
+    font-size: 16px; /* Define font size */
+    color: #000000; /* Set text color */
+    cursor: pointer;
+}
+
+/* Style the button to indicate it's clickable */
+.dropdown button {
+  border: none; /* Remove the button border */
+    background-color: transparent; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    font-size: 16px; /* Define font size */
+    text-align: left;
+    color: #fffff0; /* Set text color */
+    cursor: pointer;
+}
+
+
+.dropdown-content a {
+  color: #fffff0; /* Use the desired color code or color name */
+    text-decoration: none; /* Remove underlines (if you want) */
+}
+
+button {
+  border: none;/* Remove the button border */
+    background-color: transparent; /* Make the background transparent */
+    padding: 0; /* Remove padding inside the button */
+    font-size: 16px; /* Define font size */
+    color: #fffff0; /* Set text color */
+    cursor: pointer;}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the navigation menu */
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; 
+    position: relative;/* Adjust spacing as needed */
+}
+/* Reset default margin and padding for the header */
+header {
+    margin: auto;
+    padding: 150px;
+    background-color: #321A18; /* Change to your desired background color */
+    color: #fffff0; /* Change to your desired text color */
+    font-size: 35px;
+    text-align: center;
+    border: 18px;
+    max-height: 200px;
+    padding: 15px 0; /* Adjust padding as needed */
+}
+#Intro {
+  font-size: 75px;
+    text-decoration: underline;
+    margin-bottom: 10px }
+
+h1 {text-align: center;
+margin-top: 10px;
+z-index: 1;}
+
+
+
+/* Style the navigation menu */
+ul {
+    list-style: none; 
+    padding: 0;/* Remove default list bullets */
+
+}
+
+.dropdown {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.dropdown-option {
+  color: #000000; /* Text color for links */
+  text-decoration: none; /* Remove underlines from links */
+}
+body {
+  background-color: #CCA37A;}
+
+footer {color: #321A18 }
+
+h2{
+  font-size: 0.7px;
+  text-align: center;
+}
+
+p {color: #321A18;}
+
+.label {font-size: 38px;
+color: #321A18 }
+
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  background-color: #321A18;
+  padding: 5px;
+  max-width: 600px;
+  margin: auto;
+}
+
+img {
+  max-width: 500px;
+  max-height: 550px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+h3 {text-align: right;}
+p {text-align: right;}
+
+.post {
+  background-color: #fffff0;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.post-right {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.post-images {align-items: center;}
