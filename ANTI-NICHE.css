@@ -103,7 +103,8 @@ h2{
   text-align: center;
 }
 
-p {color: #321A18;}
+p {color: #321A18;
+word-wrap: break-word;}
 
 .label {
 color: #321A18 }
