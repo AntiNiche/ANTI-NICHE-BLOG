@@ -116,6 +116,7 @@ figure {
   padding: 5px;
   max-width: 600px;
   margin: auto;
+  flex: 1;
 }
 
 img {
