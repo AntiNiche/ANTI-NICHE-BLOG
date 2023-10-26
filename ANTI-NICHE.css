@@ -103,11 +103,13 @@ h2{
   text-align: center;
 }
 
-p {color: #321A18;
-word-wrap: break-word;}
+p {color: #321A18;}
 
 .label {
-color: #321A18 }
+color: #321A18; 
+display: flex;
+  flex-direction: column;
+  align-items: center;}
 
 
 figure {
@@ -146,4 +148,6 @@ img {
 
 }
 .post-images {align-items: center;}
+
+.label {}
 
