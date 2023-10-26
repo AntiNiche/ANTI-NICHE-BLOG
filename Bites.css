@@ -59,8 +59,8 @@ ul li {
 header {
     margin: auto;
     padding: 50px;
-    background-color: #AAD9EE; /* Change to your desired background color */
-    color: #ffffff; /* Change to your desired text color */
+    background-color: #DB7E6B; /* Change to your desired background color */
+    color: #F9DEC9; /* Change to your desired text color */
     text-align: center;
     border: 18px;
     max-height: 120px;
@@ -94,7 +94,7 @@ ul {
   text-decoration: none; /* Remove underlines from links */
 }
 body {
-  background-color: #5D737E;}
+  background-color: #F9DEC9;}
 
 footer {color: #321A18 }
 
