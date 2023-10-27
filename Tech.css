@@ -10,7 +10,7 @@
     width: 150px;
     z-index: 1;
     font-size: 16px; /* Define font size */
-    color: #000000; /* Set text color */
+    color: #ffffff; /* Set text color */
     cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
     padding: 0; /* Remove padding inside the button */
     font-size: 16px; /* Define font size */
     text-align: left;
-    color: #ffffff; /* Set text color */
+    color: #000000; /* Set text color */
     cursor: pointer;
 }
 
@@ -36,7 +36,7 @@ button {
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
     font-size: 16px; /* Define font size */
-    color: #ffffff; /* Set text color */
+    color: #000000; /* Set text color */
     cursor: pointer;}
 
 /* Show the dropdown content when the button is hovered over */
@@ -59,10 +59,10 @@ ul li {
 header {
     margin: auto;
     padding: 50px;
-    background-color: #000000; /* Change to your desired background color */
-    color: #ffffff; /* Change to your desired text color */
+    background-color: #ffffff; /* Change to your desired background color */
+    color: #000000; /* Change to your desired text color */
     text-align: center;
-    border: 18px;
+    border: 35px;
     max-height: 120px;
     padding: 15px 0; /* Adjust padding as needed */
 }
@@ -94,7 +94,7 @@ ul {
   text-decoration: none; /* Remove underlines from links */
 }
 body {
-  background-color: #5D737E;}
+  background-color: #FFFFFF;}
 
 footer {color: #321A18 }
 
