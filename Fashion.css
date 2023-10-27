@@ -5,7 +5,7 @@
   top: 100%;
   left: 0;
   border: none; /* Remove the button border */
-    background-color: #AAD9EE; /* Make the background transparent */
+    background-color: #ffffff; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
     width: 150px;
     z-index: 1;
@@ -62,7 +62,7 @@ header {
     background-color: #000000; /* Change to your desired background color */
     color: #ffffff; /* Change to your desired text color */
     text-align: center;
-    border: 18px;
+    border: thin #ffffff solid;
     max-height: 120px;
     padding: 15px 0; /* Adjust padding as needed */
 }

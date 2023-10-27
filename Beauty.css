@@ -36,7 +36,7 @@ button {
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
     font-size: 16px; /* Define font size */
-    color: #ffffff; /* Set text color */
+    color: #F3F6E0; /* Set text color */
     cursor: pointer;}
 
 /* Show the dropdown content when the button is hovered over */
@@ -60,9 +60,9 @@ header {
     margin: auto;
     padding: 50px;
     background-color: #30502D; /* Change to your desired background color */
-    color: #ffffff; /* Change to your desired text color */
+    color: #F3F6E0; /* Change to your desired text color */
     text-align: center;
-    border: 18px;
+    border: thin #F3F6E0 solid;
     max-height: 120px;
     padding: 15px 0; /* Adjust padding as needed */
 }
@@ -90,7 +90,7 @@ ul {
 }
 
 .dropdown-option {
-  color: #000000; /* Text color for links */
+  color: #F3F6E0; /* Text color for links */
   text-decoration: none; /* Remove underlines from links */
 }
 body {
@@ -100,7 +100,7 @@ footer {color: #321A18 }
 
 h2{
   font-size: 30px;
-  color: #ffffff;
+  color: #F3F6E0;
 }
 
 p {color: #321A18;}
@@ -110,7 +110,7 @@ color: #321A18 }
 
 
 figure {
-  border: thin #c0c0c0 solid;
+  border: thin #F3F6E0 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
@@ -126,7 +126,7 @@ img {
 
 figcaption {
   background-color: transparent;
-  color: #fff;
+  color: #F3F6E0;
   font: italic smaller sans-serif;
   padding: 3px;
   text-decoration: underline;
