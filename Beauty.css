@@ -5,7 +5,7 @@
   top: 100%;
   left: 0;
   border: none; /* Remove the button border */
-    background-color: #B2AC88; /* Make the background transparent */
+    background-color: #30502D; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
     width: 150px;
     z-index: 1;
@@ -59,7 +59,7 @@ ul li {
 header {
     margin: auto;
     padding: 50px;
-    background-color: #B2AC88; /* Change to your desired background color */
+    background-color: #30502D; /* Change to your desired background color */
     color: #ffffff; /* Change to your desired text color */
     text-align: center;
     border: 18px;
