@@ -15,34 +15,28 @@
 }
 
 /* Style the button to indicate it's clickable */
-.dropdown button {
+.dropdown{
   border: none; /* Remove the button border */
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    text-align: left;
-    color: #ffffff; /* Set text color */
+    font-size: 20px; /* Define font size */
+    text-align: center;
+    color: #000000; /* Set text color */
     cursor: pointer;
 }
 
 
 .dropdown-content a {
-  color: #fffff0; /* Use the desired color code or color name */
+  color: #ffffff; /* Use the desired color code or color name */
     text-decoration: none; /* Remove underlines (if you want) */
 }
 
-button {
-  border: none;/* Remove the button border */
-    background-color: transparent; /* Make the background transparent */
-    padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    color: #F3F6E0; /* Set text color */
-    cursor: pointer;}
 
 /* Show the dropdown content when the button is hovered over */
 .dropdown:hover .dropdown-content {
   display: block;
 }
+a:visited {color: #FFFFFF}
 
 /* Style the navigation menu */
 ul {
@@ -54,6 +48,8 @@ ul li {
     display: inline; /* Display list items horizontally */
     margin-right: 20px; 
     position: relative;/* Adjust spacing as needed */
+    color: #000000;
+    font-size: 20px;
 }
 /* Reset default margin and padding for the header */
 header {
@@ -68,13 +64,10 @@ header {
 }
 #lifestyle-Intro {
   font-size: 60px;
-    text-decoration: underline;
-    margin-bottom: 10px }
-
-h1 {text-align: center;
-margin-top: 10px;
-z-index: 1;}
-
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1px;
+  margin-bottom: 15px }
 
 
 /* Style the navigation menu */
@@ -93,6 +86,7 @@ ul {
   color: #F3F6E0; /* Text color for links */
   text-decoration: none; /* Remove underlines from links */
 }
+
 body {
   background-color: #D3F0A8;}
 
@@ -101,42 +95,37 @@ footer {color: #321A18 }
 h2{
   font-size: 30px;
   color: #F3F6E0;
+  font-family: 'Nosifer', sans-serif;;
 }
-
-p {color: #321A18;}
-
-.label {font-size: 38px;
-color: #321A18 }
-
 
 figure {
   border: thin #F3F6E0 solid;
   display: flex;
   flex-flow: column;
-  padding: 5px;
+  padding: 65px;
   max-width: 600px;
-  margin: auto;
-  flex: 1;
+  margin: 20px;
 }
 
 img {
   max-width: 500px;
-  max-height: 550px;
-}
-
-figcaption {
-  background-color: transparent;
-  color: #F3F6E0;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-decoration: underline;
-  text-align: center;
-}
-
-h3 {text-align: right;}
-p {text-align: right;}
+  max-height: 550px;}
 
 .post-left {background-color: transparent;
-display: flex;
+  margin-top: 70px;
+  margin-left: 170px;
+  display: inline-flex;
   flex-direction: row;
-}
+   justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;}
+
+.post-right {background-color: transparent;
+  margin-top: 70px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;}

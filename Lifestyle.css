@@ -10,34 +10,27 @@
     width: 150px;
     z-index: 1;
     font-size: 16px; /* Define font size */
-    color: #000000; /* Set text color */
+    color: #ffffff; /* Set text color */
     cursor: pointer;
 }
 
 /* Style the button to indicate it's clickable */
-.dropdown button {
+.dropdown{
   border: none; /* Remove the button border */
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    text-align: left;
+    font-size: 20px; /* Define font size */
+    text-align: center;
     color: #ffffff; /* Set text color */
     cursor: pointer;
 }
 
 
 .dropdown-content a {
-  color: #fffff0; /* Use the desired color code or color name */
+  color: #ffffff; /* Use the desired color code or color name */
     text-decoration: none; /* Remove underlines (if you want) */
 }
 
-button {
-  border: none;/* Remove the button border */
-    background-color: transparent; /* Make the background transparent */
-    padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    color: #ffffff; /* Set text color */
-    cursor: pointer;}
 
 /* Show the dropdown content when the button is hovered over */
 .dropdown:hover .dropdown-content {
@@ -54,6 +47,8 @@ ul li {
     display: inline; /* Display list items horizontally */
     margin-right: 20px; 
     position: relative;/* Adjust spacing as needed */
+    color: #ffffff;
+    font-size: 20px;
 }
 /* Reset default margin and padding for the header */
 header {
@@ -62,20 +57,23 @@ header {
     background-color: #AAD9EE; /* Change to your desired background color */
     color: #ffffff; /* Change to your desired text color */
     text-align: center;
-    border: 18px;
+    border: #ffffff solid thin;
     max-height: 120px;
     padding: 15px 0; /* Adjust padding as needed */
 }
 #lifestyle-Intro {
   font-size: 60px;
+  text-align: center;
     text-decoration: underline;
-    margin-bottom: 10px }
+    margin-top: 1px;
+    margin-bottom: 20px }
 
-h1 {text-align: center;
-margin-top: 10px;
-z-index: 1;}
+h1 {
+z-index: 1;
+color: #ffffff;
+text-decoration: underline;}
 
-
+h2 {font-family: 'Dekko', cursive;}
 
 /* Style the navigation menu */
 ul {
@@ -89,8 +87,12 @@ ul {
     margin-right: 20px; /* Adjust spacing as needed */
 }
 
+
+
+a:visited {color: #ffffff}
+
 .dropdown-option {
-  color: #000000; /* Text color for links */
+  color: #fffff0; /* Text color for links */
   text-decoration: none; /* Remove underlines from links */
 }
 body {
@@ -103,19 +105,13 @@ h2{
   color: #ffffff;
 }
 
-p {color: #321A18;}
-
-.label {font-size: 38px;
-color: #321A18 }
-
-
 figure {
-  border: thin #c0c0c0 solid;
+  border: thin #fffff0 solid;
   display: flex;
   flex-flow: column;
-  padding: 5px;
+  padding: 65px;
   max-width: 600px;
-  margin: auto;
+  margin: 20px;
   flex: 1;
 }
 
@@ -124,19 +120,22 @@ img {
   max-height: 550px;
 }
 
-figcaption {
-  background-color: transparent;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-decoration: underline;
-  text-align: center;
-}
-
-h3 {text-align: right;}
-p {text-align: right;}
 
 .post-left {background-color: transparent;
-display: flex;
+  margin-top: 70px;
+  margin-left: 170px;
+  display: inline-flex;
   flex-direction: row;
-}
+   justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;}
+
+.post-right {background-color: transparent;
+  margin-top: 70px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;}

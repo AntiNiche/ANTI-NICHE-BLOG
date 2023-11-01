@@ -15,12 +15,12 @@
 }
 
 /* Style the button to indicate it's clickable */
-.dropdown button {
+.dropdown{
   border: none; /* Remove the button border */
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    text-align: left;
+    font-size: 20px; /* Define font size */
+    text-align: center;
     color: #ffffff; /* Set text color */
     cursor: pointer;
 }
@@ -31,13 +31,6 @@
     text-decoration: none; /* Remove underlines (if you want) */
 }
 
-button {
-  border: none;/* Remove the button border */
-    background-color: transparent; /* Make the background transparent */
-    padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    color: #ffffff; /* Set text color */
-    cursor: pointer;}
 
 /* Show the dropdown content when the button is hovered over */
 .dropdown:hover .dropdown-content {
@@ -54,6 +47,8 @@ ul li {
     display: inline; /* Display list items horizontally */
     margin-right: 20px; 
     position: relative;/* Adjust spacing as needed */
+    color: #fffff0;
+    font-size: 20px;
 }
 /* Reset default margin and padding for the header */
 header {
@@ -62,20 +57,22 @@ header {
     background-color: #DB7E6B; /* Change to your desired background color */
     color: #F9DEC9; /* Change to your desired text color */
     text-align: center;
-    border: 18px;
+    border: #F9DEC9 solid thin;
     max-height: 120px;
     padding: 15px 0; /* Adjust padding as needed */
 }
 #lifestyle-Intro {
   font-size: 60px;
+  text-align: center;
     text-decoration: underline;
-    margin-bottom: 10px }
+    margin-top: 1px;
+    margin-bottom: 20px; }
 
-h1 {text-align: center;
-margin-top: 10px;
-z-index: 1;}
+h1 {
+z-index: 1;
+color: #FFFFFF;}
 
-
+a:visited {color: #FFFFFF;}
 
 /* Style the navigation menu */
 ul {
@@ -100,22 +97,18 @@ footer {color: #321A18 }
 
 h2{
   font-size: 30px;
-  color: #ffffff;
+  color: #fffff0;
+  font-family: 'Allerta Stencil', sans-serif;
 }
-
-p {color: #321A18;}
-
-.label {font-size: 38px;
-color: #321A18 }
 
 
 figure {
-  border: thin #c0c0c0 solid;
+  border: thin #fffff0 solid;
   display: flex;
   flex-flow: column;
-  padding: 5px;
+  padding: 65px;
   max-width: 600px;
-  margin: auto;
+  margin: 20px;
 }
 
 img {
@@ -123,18 +116,24 @@ img {
   max-height: 550px;
 }
 
-figcaption {
-  background-color: transparent;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
-
-h3 {text-align: right;}
-p {text-align: right;}
 
 .post-left {background-color: transparent;
-display: flex;
+  margin-top: 70px;
+  margin-left: 170px;
+display: inline-flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+  text-decoration: underline;
+ }
+
+.post-right {background-color: transparent;
+  margin-top: 70px;
+display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
 }

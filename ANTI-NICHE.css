@@ -15,12 +15,12 @@
 }
 
 /* Style the button to indicate it's clickable */
-.dropdown button {
+.dropdown {
   border: none; /* Remove the button border */
     background-color: transparent; /* Make the background transparent */
     padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    text-align: left;
+    font-size: 20px; /* Define font size */
+    text-align: center;
     color: #fffff0; /* Set text color */
     cursor: pointer;
 }
@@ -31,13 +31,7 @@
     text-decoration: none; /* Remove underlines (if you want) */
 }
 
-button {
-  border: none;/* Remove the button border */
-    background-color: transparent; /* Make the background transparent */
-    padding: 0; /* Remove padding inside the button */
-    font-size: 16px; /* Define font size */
-    color: #fffff0; /* Set text color */
-    cursor: pointer;}
+
 
 /* Show the dropdown content when the button is hovered over */
 .dropdown:hover .dropdown-content {
@@ -50,10 +44,15 @@ ul {
     padding: 0;
 }
 
+a:visited { color: #fffff0; }
+
+
 ul li {
     display: inline; /* Display list items horizontally */
     margin-right: 20px; 
     position: relative;/* Adjust spacing as needed */
+    color: #fffff0;
+    font-size: 20px;
 }
 /* Reset default margin and padding for the header */
 header {
@@ -63,7 +62,7 @@ header {
     color: #fffff0; /* Change to your desired text color */
     font-size: 45px;
     text-align: center;
-    max-height: auto;
+    max-height: 180px;
     padding: 15px 0; /* Adjust padding as needed */
 }
 #Intro {
@@ -127,9 +126,7 @@ img {
   max-height: 550px;
 }
 
-
 .post {
-  background-color: #fffff0;
   display: flex;
   flex-direction: row;
 
@@ -149,5 +146,5 @@ img {
 }
 .post-images {align-items: center;}
 
-.label {}
+
 
