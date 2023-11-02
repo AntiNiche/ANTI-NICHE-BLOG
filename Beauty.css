@@ -67,7 +67,7 @@ header {
   text-align: center;
   text-decoration: underline;
   margin-top: 1px;
-  margin-bottom: 15px }
+  margin-bottom: 12px }
 
 
 /* Style the navigation menu */
@@ -95,7 +95,8 @@ footer {color: #321A18 }
 h2{
   font-size: 30px;
   color: #F3F6E0;
-  font-family: 'Nosifer', sans-serif;;
+  font-family: 'Nosifer', sans-serif;
+  margin-top: 3px;
 }
 
 figure {
