@@ -36,7 +36,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-a:visited {color: #FFFFFF}
+a:visited {color: #FFFFFF;}
 
 /* Style the navigation menu */
 ul {
@@ -67,7 +67,7 @@ header {
   text-align: center;
   text-decoration: underline;
   margin-top: 1px;
-  margin-bottom: 12px }
+  margin-bottom: 12px; }
 
 
 /* Style the navigation menu */
@@ -88,7 +88,7 @@ ul {
 body {
   background-color: #D3F0A8;}
 
-footer {color: #321A18 }
+footer {color: #321A18; }
 
 h2{
   font-size: 30px;
